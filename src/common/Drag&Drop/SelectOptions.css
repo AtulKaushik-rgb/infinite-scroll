@@ -1,0 +1,94 @@
+.checkbox-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+  }
+
+  .dnd-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    height: auto;
+  }
+
+  .btn-container{
+      display: flex;
+      flex-direction: column;
+      margin:0px 40px;
+  }
+  .transfer-button{
+      margin: 10px 0px;
+  }
+  .nav-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: none;
+  }
+  .all-section{
+      width: 100%;
+      background-color: none;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      display: flex;
+      border-bottom: 1px solid rgb(224, 224, 224);
+      
+  }
+  .count-label{
+      margin: 0px auto;
+      font-size: 14px;
+  }
+  /* .all-section p{
+      margin: 0px auto;
+      font-size: 14px;
+  } */
+  /* .all-section div{
+    margin-left:20px
+} */
+  .checkboxes{
+      background-color: none;
+      width: 200px;
+      height: 100vh;
+      border: 1px solid rgb(224, 224, 224);
+  }
+  
+  .container{
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; */
+  }
+  /* .container li{
+      background-color: none;
+      margin: 5px 15px;
+      padding: 5px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      
+  } */
+  /* ul li label{
+      margin: 0px 15px;
+  } */
+  .title-label{
+    margin: 0px 15px;
+  }
+  .drag-container{
+    /* border-bottom: 1px solid black; */
+    margin: 0px auto;
+    width: 600px;
+}
+ .loader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+} 
